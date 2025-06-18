@@ -1,6 +1,6 @@
-package com.luizeduardobrandao.motivation.repository
+package com.luizeduardobrandao.motivationmvvm.repository
 
-import com.luizeduardobrandao.motivation.helper.MotivationConstants
+import com.luizeduardobrandao.motivationmvvm.helper.MotivationConstants
 import kotlin.random.Random
 
 data class Phrase(val description: String, val category: Int, val language: String)

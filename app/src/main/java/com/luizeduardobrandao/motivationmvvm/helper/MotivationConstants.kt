@@ -1,4 +1,4 @@
-package com.luizeduardobrandao.motivation.helper
+package com.luizeduardobrandao.motivationmvvm.helper
 
 // adicionar private constructor()
 class MotivationConstants private constructor(){

@@ -1,4 +1,4 @@
-package com.luizeduardobrandao.motivation.repository
+package com.luizeduardobrandao.motivationmvvm.repository
 
 import android.content.Context
 

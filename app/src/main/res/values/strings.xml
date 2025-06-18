@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Motivation</string>
+    <string name="app_name">MotivationMVVM</string>
 
     <string name="button_save">Salvar</string>
     <string name="button_new_phrase">Nova frase</string>
