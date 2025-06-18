@@ -1,3 +1,61 @@
 <resources>
-    <string name="app_name">MotivationMVVM</string>
+    <string name="app_name">Motivation</string>
+
+    <string name="button_save">Salvar</string>
+    <string name="button_new_phrase">Nova frase</string>
+    <string name="button_language">Idioma Frase</string>
+
+    <string name="hint_your_name">Qual seu nome?</string>
+
+    <string name="label_user">Usuário</string>
+    <string name="label_phrase">Frase</string>
+
+    <string name="desc_all">Todas as frases</string>
+    <string name="desc_happy">Frase de motivação</string>
+    <string name="desc_sunny">Frase para começar o dia</string>
+    <string name="desc_funny">Frases engraçadas</string>
+
+    <string name="label_lets_begin">Vamos começar?</string>
+    <string name="label_name_user">Olá, %1$s!</string>
+
+    <string name="error_mandatory_name">Informe seu nome.</string>
+
 </resources>
+
+
+<!--
+
+*** Adicionar novos idiomas
+
+(Inglês)
+
+Clicar com botão direito em values < New < Value Resource File
+    - Dar o nome de strings
+    - Em Available qualifiers clicar em Locale e depois em ">>"
+    - No menu ao lado direito escolher o idioma em "Language" (english)
+        - e em "Specify Region Only": escolher "US: United states"
+    - Depois irá surgir uma pasta "strings" com "strings.xml" e "strings.xml" com a bandeira dos EUA
+
+(Francês)
+
+Clicar com botão direito em values < New < Value Resource File
+    - Dar o nome de strings
+    - Em Available qualifiers clicar em Locale e depois em ">>"
+    - No menu ao lado direito escolher o idioma em "Language" (french)
+        - e em "Specify Region Only": desta vez escolher "Any Region"
+    - Depois irá surgir na pasta "strings" um "strings.xml" sem bandeira.
+
+
+Agora  em strings.xml (en-rUS) adicionar os novos valores de string em inglês
+Depois em strings.xml (fr)     adicionar os novos valores de string em francês
+
+
+- Quando abrir o dispostivo em uma língua não adicionada, ele usará o strings.xml padrão.
+- Quando abrir o dispositivo cujo o aparelho está em inglês, ele utilizará o strings(en-rUS)
+
+*** Importante
+
+- Essas implementações apenas cobrem as traduções com id definido em strings.xml.
+    - NÃO TRADUZ DADOS (neste aplicativo os dados são as frases exibidas)
+
+-->
